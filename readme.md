@@ -6,3 +6,7 @@ kafka-topics --describe --topic quickstart-events --bootstrap-server localhost:2
 kafka-console-producer --topic quickstart-events --bootstrap-server localhost:29092
 
 kafka-console-consumer --topic alibaba --from-beginning --bootstrap-server localhost:29092
+
+localhost:8080/api/v1/messages/json
+
+kafka-console-consumer --topic wikimedia-stream --from-beginning --bootstrap-server localhost:29092
